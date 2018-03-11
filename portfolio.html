@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    This Website is developed by Christian Henriksen
+    Libaries: Materialize, JQuery, Google fonts
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio │ Christian B. Henriksen</title>
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Libaries & Frameworks -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+</head>
+
+<body>
+    <div class="preloader"></div>
+
+    <!--Header -->
+    <div class="container" id="top_container">
+        <div class="row">
+            <div class="col s12">
+                <h5 class="center-align">Living in Denmark, Aalborg</h5>
+            </div>
+            <div class="col s12">
+                <h1 class="center-align">Hello, i'm Christian
+                    <br>
+                    <svg width="4cm" height="4cm" viewBox="0 0 0 0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <line id="lineSVG" x1="0" y1="0" x2="700" y2="0" style="stroke:#3593A7;stroke-width:4" />
+                    </svg>
+                    <svg xml:space="preserve">
+                        <use class="under" xlink:href="#lineSVG" />
+                    </svg>
+                </h1>
+                <div id="profileContainer" class="col s12 center-align ">
+                    <img id="profile" class="responsive-img" src="images/profile.jpg" alt="Christian Henriksen">
+                    <div class="social">
+                        <a href="https://www.facebook.com/hr.henriksen" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Check my Facebook">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="https://github.com/GuzzyMedia" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Check my GitHub Page">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/henriksen12/" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Check my Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="http://www.linkedin.com/in/cbhen" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Check my LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Element Showed -->
+
+    </div>
+
+    <div class="container" id="bg2">
+        <div class="ref row" id="references_container">
+            <h2 class="center-align">
+                <i class="small material-icons">developer_board</i> References
+            </h2>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <a class="modal-trigger" href="#modal1">
+                        <div class="collapsible-header hoverable">
+                            <i class="material-icons">motorcycle</i>Intelligent Cycling&trade;
+                            <span class="new badge" data-badge-caption="HTML/JavaScript"></span>
+                        </div>
+                    </a>
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal">
+                        <a href="#" class="modal-close">
+                            <i class="material-icons">close</i>
+                        </a>
+                        <div class="modal-content">
+                            <div class="row">
+                                <div class="col l12 s12">
+                                    <h4>Intelligent Cycling&trade; </h4>
+                                </div>
+                                <div class="col s6 s12">
+                                    <p>I've been working as a Freelance Web developer at Intelligent Cycling, where my assignments
+                                        was mostly based on the Front-end development.
+                                    </p>
+                                </div>
+                                <div class="col l6 s12">
+                                    <img src="images/intelligentcycling.png" class="responsive-img" alt="intelligent Cycling"> </div>
+                                <div class="col l6 s12 left-align">
+                                    <a class="collap_link waves-effect waves-light btn" href="http://www.intelligent-cycling.com/">
+                                        <i class="material-icons left">keyboard_arrow_right</i> You can check them out here!
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a class="modal-trigger" href="#modal2">
+                        <div class="collapsible-header hoverable">
+                            <i class="material-icons">book</i>InternetZoo
+                            <span class="new badge" data-badge-caption="HTML/CSS"></span>
+                        </div>
+                    </a>
+                    <!-- Modal Structure -->
+                    <div id="modal2" class="modal">
+                        <a href="#" class="modal-close">
+                            <i class="material-icons">close</i>
+                        </a>
+                        <div class="modal-content">
+                            <div class="row">
+                                <div class="col l12 s12">
+                                    <h4>InternetZoo ApS</h4>
+                                </div>
+                                <div class="col l6 s12">
+                                    <p>I'm currently working as a Freelance Webdesigner at InternetZoo. My assignments are mostly
+                                        based on affiliate marketing, banner-design, and campaign design.
+                                    </p>
+                                </div>
+                                <div class="col l6 s12">
+                                    <img src="images/doormat.png" class="responsive-img" alt="InternetZoo"> </div>
+                                <div class="col s12 left-align">
+                                    <a class="collap_link waves-effect waves-light btn" href="http://www.internetzoo.biz/">
+                                        <i class="material-icons left">keyboard_arrow_right</i> You can check them out here!
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <a class="modal-trigger" href="#modal3">
+                        <div class="collapsible-header hoverable">
+                            <i class="material-icons">business_center</i>GuzzyMedia
+                            <span class="new badge green" data-badge-caption="Freelance"></span>
+                        </div>
+                    </a>
+                    <!-- Modal Structure -->
+                    <div id="modal3" class="modal">
+                        <a href="#" class="modal-close">
+                            <i class="material-icons">close</i>
+                        </a>
+                        <div class="modal-content">
+                            <div class="row">
+                                <div class="col s12">
+                                    <h4>GuzzyMedia</h4>
+                                </div>
+                                <div class="col l6 s12">
+                                    <p>This is my own company, where i offer different kind of web-related, photography and
+                                        other freelance work. I've been working for DanskAirsoft, where i shot their product
+                                        pictures for their website.
+                                    </p>
+                                </div>
+                                <div class="col l6 s12">
+                                    <img src="images/logo.png" class="responsive-img" alt="GuzzyMedia"> </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+        </div>   
+        <div class="school row" id="schools_container">
+            <h2 class="center-align">
+                <i class="small material-icons">school</i> Schools
+            </h2>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <a class="modal-trigger" href="#modal1_school">
+                        <div class="collapsible-header hoverable">
+                            <i class="material-icons">school</i>Holstebro Højere Tekniske Eksamen
+                            <span class="new badge" data-badge-caption="2013-2016"></span>
+                        </div>
+                    </a>
+                </li>
+                <div git id="modal1_school" class="modal">
+                    <a href="#" class="modal-close">
+                        <i class="material-icons">close</i>
+                    </a>
+                    <div class="modal-content">
+                        <div class="row">
+                            <div class="col l12 s12">
+                                <h4>Holstebro Højere Tekniske Eksamen </h4>
+                            </div>
+                            <div class="col l6 s12">
+                                <p>Had subjects such as: Mathematics A, Physics A, Danish A, electrical engineering A, Social
+                                    studies B, English B, Programming C mm.
+                                </p>
+                            </div>
+                            <div class="col l6 s12">
+                                <img src="images/htx.jpg" class="responsive-img" alt="Holstebro Tekniske Gymnasium"> </div>
+                            <div class="col s12 left-align">
+                                <b>Electrical engineering report:</b>
+                                <br>
+                                <a class="collap_link waves-effect waves-light btn" href="files/Electricalengineering.pdf" target="_blank">
+                                    <i class="material-icons left">keyboard_arrow_right</i> Click here to download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <a class="modal-trigger" href="#modal2_school">
+                        <div class="collapsible-header hoverable">
+                            <i class="material-icons">school</i>Aalborg University
+                            <span class="new badge red" data-badge-caption="2017-Now!"></span>
+                        </div>
+                    </a>
+                </li>
+                <div id="modal2_school" class="modal">
+                    <a href="#" class="modal-close">
+                        <i class="material-icons">close</i>
+                    </a>
+                    <div class="modal-content">
+                        <div class="row">
+                            <div class="col l12 s12">
+                                <h4>Bachelor in IT at Aalborg University</h4>
+                            </div>
+                            <div class="col l6 s12">
+                                <p>Currently, I'm studying a bachelor in Information Technology at Aalborg University., where
+                                    the lectures are focused on business management and UX-design.
+                                </p>
+                            </div>
+                            <div class="col l6 s12">
+                                <img src="images/ux.png" class="responsive-img" alt="why y not be user-friendly"> </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="work row" id="work_container">
+            <h2 class="center-align">
+                <i class="small material-icons">work</i> Work
+            </h2>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                </li>
+            </ul>
+        </div>
+        <div class="attachments row" id="attachments_container">
+            <h2 class="center-align">
+                <i class="small material-icons">attach_file</i> Attachments
+            </h2>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- For fixed btn -->
+    <div class="fixed-action-btn horizontal click-to-toggle">
+        <a class="btn-floating btn-large #1B73A2 z-depth-2 waves-effect waves-circle pulse" id="menu">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul id="menuItems">
+            <li>
+                <a id="menuRef" class="btn-floating red tooltipped waves-effect waves-circle waves-light" data-position="top" data-delay="50"
+                    data-tooltip="References">
+                    <i class="material-icons ">developer_board</i>
+                </a>
+            </li>
+            <li>
+                <a id="menuSchool" class="btn-floating yellow darken-1 tooltipped waves-effect waves-circle waves-light" data-position="top"
+                    data-delay="50" data-tooltip="Schools">
+                    <i class="material-icons">school</i>
+                </a>
+            </li>
+            <li>
+                <a id="menuWork" class="btn-floating green tooltipped waves-effect waves-circle waves-light" data-position="top" data-delay="50"
+                    data-tooltip="Work">
+                    <i class="material-icons">work</i>
+                </a>
+            </li>
+            <li>
+                <a id="menuAttachments" class="btn-floating blue tooltipped waves-effect waves-circle waves-light" data-position="top" data-delay="50"
+                    data-tooltip="Attachments">
+                    <i class="material-icons">attach_file</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="container" id="nav">
+        <div class="row">
+            <div class="col s12 center-align">
+                <a href="#" class="nav_btn">
+                    <i id="ref" class="material-icons">radio_button_checked</i>
+                </a>
+                <a href="#" class="nav_btn">
+                    <i id="school" class="material-icons">radio_button_unchecked</i>
+                </a>
+                <a href="#" class="nav_btn">
+                    <i id="work" class="material-icons">radio_button_unchecked</i>
+                </a>
+                <a href="#" class="nav_btn">
+                    <i id="attachments" class="material-icons">radio_button_unchecked</i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!-- Javascript -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="js/preloader.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+
+</html>
