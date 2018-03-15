@@ -7,14 +7,13 @@ Darkblue: #1B73A2
 light/dark blue: #3593A7
 #grey/black: #29282E
 */
-$white: #ECE6E6;
-$lightblue: #29C1E0;
-$darkblue: #1B73A2;
-$greyblack: #29282e;
-$darklight: #1B73A2;
-$contentblack: #2a292f;
+@import '_variables.scss';
+@import '_mixins.scss';
 /*Fonts*/
 
+html{
+    font-family: $font-primary;
+}
 
 @font-face {
     font-family: ShadowsIntoLight;
@@ -23,6 +22,7 @@ $contentblack: #2a292f;
 
 body {
     background-color: $greyblack;
+    
 }
 p {
     hyphens: auto;
@@ -32,20 +32,28 @@ p {
 
 .container {
     display: none;
+    
 }
 
-h1 {
+h1, .arrows {
     color: $white;
 }
+.arrows {
+   padding: 77px 0 !important;
+    i{
+        cursor: pointer;
+    }
+}
+
 
 h2 {
     color: $white;
     font-family: 18px;
-    font-family: ShadowsIntoLight;
+    font-family: $font-secondary;
 }
 
 h5 {
-    font-family: ShadowsIntoLight;
+    font-family: $font-secondary;
     color:$white;
     &:after{
         display: inline-block;
@@ -71,7 +79,7 @@ h5 {
     display:none;
     position: relative;
     width: 15%;
-    border-radius: 50%;
+    @include rounded-corner(50%);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 1px 5px 0 rgba(0, 0, 0, 0.12),
     0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -117,7 +125,7 @@ h5 {
     }
     .btn{
         color:$white; 
-        font-family: ShadowsIntoLight;
+        font-family: $font-secondary;
     }
 }
 .modal-trigger{
@@ -145,6 +153,7 @@ h5 {
     position: relative;
     top:-120px;
     height:280px;
+    
 }
 #nav{
     position: relative;

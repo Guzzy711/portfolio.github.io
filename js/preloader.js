@@ -19,7 +19,6 @@ $(window)
         $('.container')
             .delay(350)
             .css({
-                'display': 'block'
-            });
+                'display': 'block'});
         
     });

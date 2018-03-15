@@ -5,9 +5,11 @@ $(document).ready(function () {
         //Need to get the last i-tag that is checked
         $lastID = $('#nav i:contains("radio_button_checked")').attr('id');
         if ($(this).html() == "radio_button_checked") { //If the html contents in the i-tag is checked, then
+            
             /* What happens after the button is check is here */
             navigation(this);
         } else { //Else, if its not checked then
+console.log(this);
             $('#nav i').html("radio_button_unchecked"); //First uncheck every button, to ensure that there is no doubling
             $(this).html("radio_button_checked"); //Then set the selected i-tag to checked.
             navigation(this);
